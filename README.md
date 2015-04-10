@@ -3,9 +3,22 @@ Cordova
 
 clear : ctrl+L
 
+
+- MAC
+
 préférence : cmd+,
+
+
+- iOS simulator
+
+Rotation : cmd+arrow
 
 Exit App : cmd+shift+h
 
 Kill App : cmd+shift+h+h
 
+
+- Xcode
+
+Resources/icons : changer l'icone de l'app
+Resources/splash : changer le splashscreen de l'app
