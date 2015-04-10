@@ -4,3 +4,6 @@ Cordova
 clear : ctrl+L
 
 préférence : cmd+,
+
+Exit App : cmd+shift+h
+
