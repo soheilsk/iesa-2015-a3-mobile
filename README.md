@@ -22,3 +22,5 @@ Kill App : cmd+shift+h+h
 
 Resources/icons : changer l'icone de l'app
 Resources/splash : changer le splashscreen de l'app
+
+Clean : cmd+shift+k
