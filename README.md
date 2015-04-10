@@ -2,4 +2,5 @@
 Cordova
 
 clear : ctrl+L
+
 préférence : cmd+,
