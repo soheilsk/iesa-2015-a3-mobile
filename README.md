@@ -7,3 +7,5 @@ préférence : cmd+,
 
 Exit App : cmd+shift+h
 
+Kill App : cmd+shift+h+h
+
