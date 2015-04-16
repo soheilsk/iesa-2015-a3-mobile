@@ -31,4 +31,7 @@
     <content src="index.html" />
     <access origin="*" />
     <engine name="ios" version="3.8.0" />
+    <feature name="NetworkStatus">
+        <param name="ios-package" value="CDVConnection" />
+    </feature>
 </widget>
