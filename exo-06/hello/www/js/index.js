@@ -34,6 +34,15 @@ var app = {
     // function, we must explicitly call 'app.receivedEvent(...);'
     onDeviceReady: function() {
         app.receivedEvent('deviceready');
+
+        
+        var element = document.getElementById('deviceProprities');
+        element.innerHTML = '<ul data-role="listview" id="list">'
+        + '<li data-icon="arrow-1">Name: ' + device.name + ' </li>'
+        + '</ul>'
+
+        
+        
     },
     // Update DOM on a Received Event
     receivedEvent: function(id) {
@@ -47,18 +56,6 @@ var app = {
         console.log('Received Event: ' + id);
     }
 };
-
-  function onDeviceReady() {
-        setTimeout (function(){ navigator.splashscreen.hide();}, 2000) ;
-    }
-
-
-    document.addEventListener("deviceready", onDeviceReady, false);
-    function onDeviceReady() {
-    console.log(device.cordova);
-           $( "#lol" );
-
-}
 
 
 app.initialize();
