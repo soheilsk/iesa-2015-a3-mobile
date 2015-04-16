@@ -3,6 +3,8 @@ Cordova
 
 clear : ctrl+L
 
+plugins list : $ cordova plugins ls
+
 
 - MAC
 
